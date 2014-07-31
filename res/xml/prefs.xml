@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory 
+        android:title="@string/applicationSettingsCategoryTitle"
+        android:key="app_settings">
+        
+        <CheckBoxPreference
+            android:key="use_shutter_sound"
+            android:summary="@string/shutterSettingSummary"
+            android:title="@string/shutterSettingTitle"
+            android:defaultValue="@string/DEFAULT_SHUTTER_SOUND_ENABLED" />
+        <ListPreference
+            android:key="picture_timer"
+            android:summary="@string/pictureTimerSettingSummary"
+            android:title="@string/pictureTimerSettingTitle"
+            android:entries="@array/pictureTimerElementText"
+            android:entryValues="@array/pictureTimerValues"
+            android:defaultValue="@string/DEFAULT_TIMER_VALUE"/>
+        <ListPreference
+            android:key="picture_quality"
+            android:summary="@string/pictureQualitySettingSummary"
+            android:title="@string/pictureQualitySettingTitle"
+            android:entries="@array/pictureQualityElementText"
+            android:entryValues="@array/pictureQualityValues"
+            android:defaultValue="@string/DEFAULT_IMAGE_QUALITY"/>
+        
+        <CheckBoxPreference
+            android:key="enabled_at_startup"
+            android:summary="@string/enabledAtStartupSummary"
+            android:title="@string/enabledAtStartupTitle"
+            android:defaultValue="@string/ENABLED_AT_STARTUP" />
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/infoSettingsCategoryTitle"
+        android:key="information">
+        <Preference
+            android:key="contact_us"
+			android:title="@string/contactSettingTitle"
+			android:summary="@string/contactSettingSummary">
+			<intent android:action="android.intent.action.VIEW" 
+			    	android:data="@string/contact_url"  />	
+        </Preference>
+
+	</PreferenceCategory>
+</PreferenceScreen>

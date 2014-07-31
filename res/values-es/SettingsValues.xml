@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="pictureTimerValues">
+		<item>15</item>
+		<item>30</item>
+		<item>46</item>
+		<item>60</item>
+ 	</string-array>
+	<string-array name="pictureTimerElementText">
+		<item>15 seconds</item>
+		<item>30 seconds</item>
+		<item>46 seconds</item>
+		<item>60 seconds</item>
+ 	</string-array>
+ 	<string-array name="pictureQualityValues">
+		<item>50</item>
+		<item>75</item>
+		<item>100</item>
+ 	</string-array>
+	<string-array name="pictureQualityElementText">
+		<item>Low Quality</item>
+		<item>Medium Quality</item>
+		<item>High Quality</item>
+ 	</string-array>
+
+</resources>

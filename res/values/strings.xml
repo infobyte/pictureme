@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PictureMe</string>
+<!--     <string name="hello_world">Hello world!</string> -->
+    <string name="menu_settings">Settings</string>
+<!--     <string name="app_imagefolder_name">pictures</string> -->
+<!--     <string name="app_logfolder_name">logs</string> -->
+    <string name="title_activity_image_thumbnails">ImageThumbnailsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_image">ViewImage</string>
+    <string name="btnGaleria">Memory lane</string>
+    <string name="btnStart">Capture new moment</string>
+    <string name="btnStop">Stop capturing</string>
+<!--     <string name="title_activity_preferences">PreferencesActivity</string> -->
+<!--     <string name="title_activity_settings">SettingsActivity</string> -->
+    <string name="picture">Picture</string>
+    <string name="select_intro">Long-press a thumbnail to add an image</string>
+    <string name="show_intro">Press a thumbnail to display at larger size</string>
+<!--     <string name="title_activity_pic_select">PicSelectActivity</string> -->
+    <string name="title_activity_list_directory">ListDirectory</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_exit">Are you sure you want to exit?</string>
+    <string name="exit">Exit</string>
+    
+    <string name="descr_image">Image</string>
+    
+	<!-- SETTINGS -->
+    <string name="DEFAULT_TIMER_VALUE" translatable="false">30</string>
+    <string name="DEFAULT_SHUTTER_SOUND_ENABLED" translatable="false">false</string>
+    <string name="ENABLED_AT_STARTUP" translatable="false">true</string>
+    <string name="DEFAULT_IMAGE_QUALITY" translatable="false">50</string>
+    <string name="applicationSettingsCategoryTitle">Application Settings</string>
+    <string name="infoSettingsCategoryTitle">Information</string>
+    <string name="shutterSettingSummary">Play the shutter sound when a picture is taken.</string>
+    <string name="shutterSettingTitle">Shutter Sound</string>
+    <string name="pictureTimerSettingSummary">Interval in seconds between each picture.</string>
+    <string name="pictureTimerSettingTitle">Timer interval</string>
+    <string name="pictureQualitySettingSummary">Select the quality of the pictures.</string>
+   	<string name="pictureQualitySettingTitle">Picture quality</string>
+   	<string name="enabledAtStartupSummary">PictureMe should start automatically when the device is turned on?</string>
+   	<string name="enabledAtStartupTitle">Enabled at startup</string>
+<!--    	<string name="librariesSettingTitle">Libraries</string> -->
+<!--    	<string name="librariesSettingSummary">Information about open source libraries used.</string> -->
+ 	<string name="contactSettingTitle">Contact Us</string>
+   	<string name="contactSettingSummary">Do you want to contact us?</string>
+<!--   	<string name="aboutSettingTitle">About Infobyte LLC</string> -->
+   	<string name="aboutSettingSummary">Visit our website!</string>
+   	
+   	<string name="contact_url" translatable="false">http://www.pictureme.ws/</string>
+   	
+	<!-- END SETTINGS -->
+	
+	
+   	
+
+</resources>

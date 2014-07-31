@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundrepeat">
+    
+	    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:background="@drawable/header_transparent">
+
+	        <ImageView
+	            android:id="@+id/imgPicturemeText1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="30dp"
+	            android:src="@drawable/pictureme_text" />
+
+	        <ImageView
+	            android:id="@+id/imgPicturemeText2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/pictureme_text2" 
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="30dp"/>
+	    	
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical" 
+	        android:gravity="center_vertical|center_horizontal">
+	        
+	        
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" 
+		        android:gravity="center_vertical|center_horizontal"
+		        android:padding="5dp"
+		        android:background="@drawable/bg_striped">
+		        <Button
+			        android:id="@+id/btnStart"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+		            android:drawableLeft="@drawable/img_camera_icon" 
+		            android:drawablePadding="1dp"
+			        android:width="200dp"
+			        android:height="40dp"
+			        android:text="@string/btnStart" 
+			        android:background="@drawable/button_green_pm_capture"
+			        android:gravity="center"/>
+		         
+		        <Button
+			        android:id="@+id/btnGallery"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:drawableLeft="@drawable/img_camera_icon"
+			        android:drawablePadding="1dp"
+			        android:drawingCacheQuality="high"
+			        android:width="200dp"
+			        android:height="40dp"
+			        android:text="@string/btnGaleria" 
+			        android:background="@drawable/button_blue_pm_gallery"
+			        android:gravity="center"/>
+		        
+		        <Button
+		            android:id="@+id/btnTest"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/button_blue_pm_gallery"
+		            android:drawableLeft="@drawable/img_camera_icon"
+		            android:drawablePadding="1dp"
+		            android:drawingCacheQuality="high"
+		            android:gravity="center"
+		            android:height="40dp"
+		            android:text="Test"
+		            android:visibility="gone"
+		            android:width="200dp" />
+		        
+		        	    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="1dip"
+        android:layout_height="1dip"
+        android:minHeight="1dp"
+        android:minWidth="1dp"
+        android:layout_weight="1" />
+			</LinearLayout>
+         	
+	        
+        	
+	    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+

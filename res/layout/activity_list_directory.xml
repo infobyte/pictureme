@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    tools:context=".ListDirectory" >
+
+    <LinearLayout
+        android:id="@+id/layDirectoryBack"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/negro"
+        android:clickable="true"
+        android:onClick="finishActivity" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/img_volver" />
+
+        <TextView
+            android:id="@+id/titleList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="@string/btnGaleria"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lstDir"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

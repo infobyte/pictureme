@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PictureMe</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="app_imagefolder_name">pictures</string>
+    <string name="app_logfolder_name">logs</string>
+    <string name="title_activity_image_thumbnails">ImageThumbnailsActivity</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_view_image">ViewImage</string>
+    <string name="btnGaleria">Galería de recuerdos</string>
+    <string name="btnStart">Capturar momentos!</string>
+    <string name="btnStop">Detener captura</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="picture">Imagen</string>
+    <string name="select_intro">Long-press a thumbnail to add an image</string>
+    <string name="show_intro">Presione una miniatura para visualizar la imagen original</string>
+    <string name="title_activity_pic_select">PicSelectActivity</string>
+    <string name="title_activity_list_directory">ListDirectory</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_exit">¿Estás seguro de querer salir?</string>
+    <string name="exit">Salir</string>
+    
+    <string name="descr_image">Imagen</string>
+    
+	<!-- SETTINGS -->
+    <string name="applicationSettingsCategoryTitle">Configuración</string>
+    <string name="infoSettingsCategoryTitle">Información</string>
+    <string name="shutterSettingSummary">Disparar el sonido del obturador cuando una imagen es capturada.</string>
+    <string name="shutterSettingTitle">Sonido del obturador</string>
+    <string name="pictureTimerSettingSummary">Intervalo en segundos entre cada captura de imagen.</string>
+    <string name="pictureTimerSettingTitle">Intervalo de captura</string>
+    <string name="pictureQualitySettingSummary">Seleccione la calidad de la imagen.</string>
+   	<string name="pictureQualitySettingTitle">Calidad de la imagen</string>
+   	<string name="enabledAtStartupSummary">PictureMe debe ser iniciado automáticamente al prender el dispositivo?</string>
+   	<string name="enabledAtStartupTitle">Iniciar automáticamente</string>
+   	<string name="librariesSettingTitle">Librerías</string>
+   	<string name="librariesSettingSummary">Información acerca de las librerías de código abierto usadas.</string>
+ 	<string name="contactSettingTitle">Contáctenos</string>
+   	<string name="contactSettingSummary">¿Quiere contactarnos?</string>
+  	<string name="aboutSettingTitle">Acerca de Infobyte LLC</string>
+   	<string name="aboutSettingSummary">¡Visite nuestro sitio!</string>
+   	
+	<!-- END SETTINGS -->
+   	
+
+</resources>
