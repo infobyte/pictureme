@@ -13,7 +13,7 @@ PictureMe has all the features of the SenseCam, but instead of having to buy an 
 All proceeds will be donated to Salud Activa, a not-for-profit organization.  
 
 
-How to synchronize PictureMe captured images with SenseCam?
+How to synchronize PictureMe with SenseCam?
 =========
 
 * Download and install  [SenseCam Image Viewer](http://research.microsoft.com/en-us/downloads/e50842f1-2ed2-4cbb-aa39-2ac033052d1a/ "Microsoft SenseCam Image Viewer")
