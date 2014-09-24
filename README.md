@@ -20,3 +20,9 @@ How to synchronize PictureMe with SenseCam?
 * Open the **SenseCam Viewer** application.
 * Connect your android device to the computer via the USB cable using the "Media Storage" mode.
 * Give the SenseCam Viewer a couple of seconds to synchronize your pictures.
+
+
+How do I get PictureMe?
+========
+
+You can download the latest version of PictureMe using [the following link](https://github.com/infobyte/pictureme/raw/master/apk/PictureMe.apk "PictureMe latest APK.")  
