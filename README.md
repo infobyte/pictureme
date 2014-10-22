@@ -9,8 +9,9 @@ By 2050 an estimated 115 million cases of Alzheimers worldwide
 Recent studies by Cambridge Memory clinic have shown reviewing regular, daily events in pictures can increase memory, congnitive function and quality of life in those suffering from alzheimers.  
 **Microsoft** has developed a device called the **SenseCam**  
 Price: $400  
-PictureMe has all the features of the SenseCam, but instead of having to buy an expensive new gadget... Comes as an app easily downloadable to any smartphone.
-All proceeds will be donated to Salud Activa, a not-for-profit organization.  
+PictureMe has all the features of the SenseCam, but instead of having to buy an expensive new gadget... 
+Comes as an app easily downloadable to any smartphone.
+All proceeds will be donated to [Salud Activa](http://www.saludactiva.org.ar), a not-for-profit organization.  
 
 
 How to synchronize PictureMe with SenseCam?
